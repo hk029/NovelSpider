@@ -11,4 +11,8 @@ import scrapy
 class NovelspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    bookName = scrapy.Field()
+    bookTitle = scrapy.Field()
+    chapterNum = scrapy.Field()
+    chapterName = scrapy.Field()
+    chapterURL = scrapy.Field()
